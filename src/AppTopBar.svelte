@@ -51,9 +51,7 @@ const toggleTheme = () => {
   <NavHamburger on:click="{toggle}" />
   <NavUl hidden="{hidden}">
     <NavLi class="cursor-pointer" on:click="{toggleTheme}">Toggle Theme</NavLi>
-    <NavLi href="./" active="{$Current_app == 'MultiCounter'}"
-      >Multi-Counter</NavLi
-    >
+    <NavLi href="#/Gallery" active="{$Current_app == 'Gallery'}">Gallery</NavLi>
     <NavLi href="./">Created By: vfxTurjo</NavLi>
   </NavUl>
 </Navbar>

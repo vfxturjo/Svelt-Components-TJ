@@ -5,17 +5,18 @@ import { blur, slide } from "svelte/transition";
 import Icon from "@iconify/svelte";
 import counterIcon from "@iconify/icons-mdi/counter";
 import timerOutline from "@iconify/icons-material-symbols/timer-outline";
+import imageGalleryLine from "@iconify/icons-clarity/image-gallery-line";
 
 let pages = [
+  {
+    App_name: "Gallery of components",
+    icon: imageGalleryLine,
+    href: "#/Gallery",
+  },
   {
     App_name: "Multi-Counter App",
     icon: counterIcon,
     href: "#/CounterApp",
-  },
-  {
-    App_name: "Timer App",
-    icon: timerOutline,
-    href: "#/TimerApp",
   },
 ];
 </script>

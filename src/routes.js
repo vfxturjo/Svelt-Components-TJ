@@ -9,12 +9,19 @@ export const routes = {
   "/": wrap({
     asyncComponent: () => import("./lib/Home.svelte"),
   }),
-  "/SV_Components": wrap({
+  "/Svelt-Components-TJ": wrap({
     asyncComponent: () => import("./lib/Home.svelte"),
   }),
   "/home": wrap({
     asyncComponent: () => import("./lib/Home.svelte"),
   }),
+
+  // main pages
+  "/gallery": wrap({
+    asyncComponent: () => import("./lib/Gallery/Gallery.svelte"),
+  }),
+
+
 
   // utility page
   "/Designer": wrap({
